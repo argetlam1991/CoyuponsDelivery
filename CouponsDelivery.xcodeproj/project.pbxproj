@@ -16,6 +16,7 @@
 		485D412F1EF70AA6008914C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485D412E1EF70AA6008914C8 /* MapKit.framework */; };
 		485D41311EF70AB2008914C8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485D41301EF70AB2008914C8 /* UserNotifications.framework */; };
 		489E66241EF71E0400143A63 /* testingTrace.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 489E66231EF71E0400143A63 /* testingTrace.gpx */; };
+		489E66271EF7214300143A63 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 489E66261EF7214300143A63 /* MyAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		485D412E1EF70AA6008914C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		485D41301EF70AB2008914C8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		489E66231EF71E0400143A63 /* testingTrace.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = testingTrace.gpx; path = CouponsDelivery/testingTrace.gpx; sourceTree = "<group>"; };
+		489E66251EF7214300143A63 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		489E66261EF7214300143A63 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				485D41241EF70A95008914C8 /* LaunchScreen.storyboard */,
 				485D41271EF70A95008914C8 /* Info.plist */,
 				485D41161EF70A95008914C8 /* Supporting Files */,
+				489E66251EF7214300143A63 /* MyAnnotation.h */,
+				489E66261EF7214300143A63 /* MyAnnotation.m */,
 			);
 			path = CouponsDelivery;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 			files = (
 				485D411E1EF70A95008914C8 /* ViewController.m in Sources */,
 				485D411B1EF70A95008914C8 /* AppDelegate.m in Sources */,
+				489E66271EF7214300143A63 /* MyAnnotation.m in Sources */,
 				485D41181EF70A95008914C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
